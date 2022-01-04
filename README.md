@@ -24,4 +24,8 @@
     1.pip install selenium
     
     2.pip install pywin32
+
+3：更改登录信息
+   username = "******" # 请替换成你的用户名
+   password = "******" # 请替换成你的密码
     
