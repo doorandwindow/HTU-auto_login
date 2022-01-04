@@ -19,7 +19,7 @@ while(1):
         os.environ["webdriver.ie.driver"] = chromedriver
         
         driver=webdriver.Chrome() # 选择Chrome浏览器
-        driver.get('http://210.42.255.130/portalReceiveAction.do?wlanuserip=10.21.71.142&wlanacname=HNSFDX_H3C-S8808-X') # 打开网站
+        driver.get('http://210.42.255.130/portalReceiveAction.do?wlanuserip=10.21.71.142&wlanacname=HNSFDX_H3C-S8808-X') # 打开网站，连接校园网自动跳出的地址。
         driver.maximize_window() #最大化谷歌浏览器
         #处理alert弹窗
         try:
