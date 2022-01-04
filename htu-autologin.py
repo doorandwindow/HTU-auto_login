@@ -35,8 +35,8 @@ while(1):
         
         #driver.find_element_by_link_text('登录').click() # 点击“账户登录”
         
-        username = "2022283017" # 请替换成你的用户名
-        password = "Htu2022" # 请替换成你的密码
+        username = "******" # 请替换成你的用户名
+        password = "******" # 请替换成你的密码
         
         driver.find_element_by_id('useridtemp').click() # 点击用户名输入框
         driver.find_element_by_id('useridtemp').clear() #清空输入框
@@ -62,4 +62,4 @@ while(1):
         
         driver.close()
         netstate = 0
-    time.sleep(7200)
+    time.sleep(7200)  #每过两个小时检测网络连接状态
