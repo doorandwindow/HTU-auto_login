@@ -8,7 +8,7 @@ import win32con
 from selenium.common.exceptions import NoAlertPresentException
 import traceback
 while(1):
-    backinfo = os.system('ping 220.181.38.149') # 实现pingIP地址的功能，-c1指发送报文一次，-w1指等待1秒
+    backinfo = os.system('ping 220.181.38.149') # 实现pingIP地址的功能，
     if backinfo:  #未联网状态执行自动联网程序
         netstate = 1
     else:         #联网是执行循环扫描网络状态
